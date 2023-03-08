@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding:0px;
+  }
+  
+  .cbody{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    text-align: center;
+  }

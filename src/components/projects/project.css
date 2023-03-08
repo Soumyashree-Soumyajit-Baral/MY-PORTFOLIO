@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parentP{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+    width: 100vw;
+    margin-top: 0px;
+    position: absolute;
+    top: 14.7vh;
+
+}
+.box{
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 7.6vw;
+    margin-top: 3vh;
+    /* padding: 1vh; */
+    padding-top: 1vh;
+    background-color: rgb(32, 192, 192);
+}
+.box:hover:after{
+    box-shadow: 5px 5px 5px 5px;
+    content: "Click Me";
+    height: 200px;
+    width: 350px;
+    font-weight: bolder;
+    border-radius: 3px;
+    background-color: rgb(231, 93, 215);
+}
+.box:hover{
+    box-shadow: 5px 5px 5px 5px;
+    content: "Click Me";
+}
