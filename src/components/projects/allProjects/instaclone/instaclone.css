@@ -3,12 +3,12 @@
     padding: 0px;
 }
 
-.IMGparent{
+.instaparent{
     height: 50vh;
     width: 60vw;
     position: absolute;
-    top: 18vh;
-    left: 21vw;
+    top: 17vh;
+    left: 22vw;
 }
 .btn{
     background-color: pink;

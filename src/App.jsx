@@ -10,23 +10,16 @@ import About from './components/about/about'
 import Resume from './components/resume/resume'
 import Project from './components/projects/project'
 import Imagesearch from './components/projects/allProjects/imageSearch/imageSearch'
+import Calculator from './components/projects/allProjects/calculator/calculator'
+import Ecommerce from './components/projects/allProjects/ecommerce/ecommerce'
+import Instaclone from './components/projects/allProjects/instaclone/instaclone'
+import Tasks from './components/projects/allProjects/tasks/tasks'
+import Bookstore from './components/projects/allProjects/bookstore/bookstore'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      {/* <Header></Header>
-      <div className='body'>
-        <h2><span>W</span>elcome</h2>
-        <h3><span>T</span>o</h3>
-        <h1><span>M</span>y <span>W</span>ebsite.</h1><br></br>
-        <h4>* I appreciate the time you took to visit my website and I hope you will have a greate experience. *</h4>
-        <h4>* Thank You *</h4>
-      </div>
-      
-
-      <Footer></Footer> */}
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home></Home>}></Route>
@@ -35,7 +28,11 @@ function App() {
           <Route path="/resume" element={<Resume></Resume>}></Route>
           <Route path="/projects" element={<Project></Project>}></Route>
           <Route path="/imgsearch" element={<Imagesearch></Imagesearch>}></Route>
-
+          <Route path="/calculator" element={<Calculator></Calculator>}></Route>
+          <Route path="/ecommerce" element={<Ecommerce></Ecommerce>}></Route>
+          <Route path="/bookstore" element={<Bookstore></Bookstore>}></Route>
+          <Route path="/instaclone" element={<Instaclone></Instaclone>}></Route>
+          <Route path="/tasks" element={<Tasks></Tasks>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
