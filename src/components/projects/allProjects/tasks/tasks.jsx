@@ -10,7 +10,7 @@ const Tasks = () => {
     <>
       <Header></Header>
       <div className='IMGparent'>
-        <div className=''><h1>Task Manager Application</h1></div><br></br>
+        <div className=''><h1>Tasks Manager Application</h1></div><br></br>
         <div className=''>
           <h2>About:</h2>
           <h3 className=''> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a Full Stack Application which can be used to manage different tasks. In this application, users need to sign-up first, then log-in and only after log-in successfully users can be able to add tasks, update and delete as well. This is how users can be able to manage their task/work.</h3>

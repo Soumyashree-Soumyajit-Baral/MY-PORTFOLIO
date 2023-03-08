@@ -15,7 +15,7 @@ const Bookstore = () => {
           <h2>About:</h2>
           <h3 className=''> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a Full Stack Application which can be used to store different books. In this application, users need to sign-up first, then log-in and only after log-in successfully users can be able to store different books of different Subject, Author, Publication etc. So this application can be used in Libraries, Bookshops etc.</h3>
           <h2 className=''>Technologies Used:</h2>
-          <h3 className=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML, CSS, JavaScript, React JS, Redux Toolkit, Node JS, Express JS and MongoDB etc.</h3>
+          <h3 className=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML, CSS, JavaScript, React JS, Redux Toolkit, Node JS, Express JS and MongoDB.</h3>
           <h2 className=''>GitHub Link:</h2>
           <h3 className=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://github.com/Soumyashree-Soumyajit-Baral/Book-List-Full-Stack' target="_soumya">https://github.com/Soumyashree-Soumyajit-Baral/Book-List-Full-Stack</a></h3>
           <h2 className=''>Deployement Link:</h2>
