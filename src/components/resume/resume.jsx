@@ -1,5 +1,5 @@
 import React from 'react'
-import myResume from "../../assets/Soumyashree-resume-img.jpg"
+import myResume from "../../assets/Soumyashree_Resume_Image.jpg"
 import Resumepdf from "../../assets/Soumyashree Soumyajit Baral.pdf"
 import Header from '../header/header'
 import Footer from '../footer/footer'

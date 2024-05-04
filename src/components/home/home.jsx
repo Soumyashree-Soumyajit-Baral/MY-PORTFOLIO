@@ -12,8 +12,8 @@ function Home() {
       <div className='body'>
         <h2><span>W</span>elcome</h2>
         <h3><span>T</span>o</h3>
-        <h1><span>M</span>y <span>W</span>ebsite.</h1><br></br>
-        <h4>* I appreciate the time you took to visit my website and I hope you will have a greate experience. *</h4>
+        <h1><span>M</span>y <span>P</span>ortfolio!</h1><br></br>
+        <h4>* I'm thrilled to have you here, exploring my creative journey and professional endeavors. Within these digital walls, you'll find a curated collection of my work, reflecting my passion, skills, and dedication to excellence. *</h4>
         <h4>* Thank You *</h4>
       </div>
       
